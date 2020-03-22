@@ -4,8 +4,10 @@
   display: flex;
 }
 .img {
-  width: 120px;
-  height: 120px;
+  width: 140px;
+  height: 140px;
   margin: 10px auto;
+  background: #17202a;
+  border: 4px outset #566573;
   border-radius: 12px;
 }
