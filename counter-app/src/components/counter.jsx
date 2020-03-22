@@ -1,5 +1,6 @@
 // type "imrc" then below statment will be shown, push "tab" key
 import React, { Component } from "react";
+import "./counter.css";
 
 // type "cc" for class and export class
 class Counter extends Component {
@@ -21,7 +22,7 @@ class Counter extends Component {
     console.log("Counter - Rendered");
 
     return (
-      <div>
+      <div className="counter">
         <span className={this.getBadgeClasses()}>{this.formatCount()}</span>
         <button
           // onClick={() => this.handleIncrement({ id: 1 })}
