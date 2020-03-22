@@ -51,10 +51,11 @@ class App extends Component {
     return (
       <React.Fragment>
         {/* <NavBar totalCounters={this.state.counters.length} /> same result */}
-        <NavBar
-          totalCounters={this.state.counters.filter(c => c.value > 0).length}
-        />
+
         <main className="container">
+          <NavBar
+            totalCounters={this.state.counters.filter(c => c.value > 0).length}
+          />
           <Counters
             counters={this.state.counters}
             onReset={this.handleReset}
