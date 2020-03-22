@@ -5,3 +5,7 @@
   align-items: center;
   place-content: space-between;
 }
+
+.badge-custom {
+  width: 50px;
+}
